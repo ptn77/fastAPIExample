@@ -1,6 +1,7 @@
+import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
-from ML import obtain_image
+# from ML import obtain_image
 from fastapi.responses import FileResponse
 
 app = FastAPI()
@@ -28,3 +29,6 @@ def create_item(item: Item):
 #    image.save("image.png")
 
 #    #return {"prompt": prompt}
+
+if __name__ == '__main__':
+    uvicorn.run('main:app')
