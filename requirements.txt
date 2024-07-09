@@ -3,3 +3,4 @@ diffusers==0.4.0
 transformers
 scipy
 ftfy
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
