@@ -3,3 +3,5 @@ diffusers==0.4.0
 transformers
 scipy
 ftfy
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
