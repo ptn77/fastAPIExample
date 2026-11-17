@@ -3,4 +3,5 @@ diffusers==0.4.0
 transformers
 scipy
 ftfy
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
 starlette>=0.49.1 # not directly required, pinned by Snyk to avoid a vulnerability
